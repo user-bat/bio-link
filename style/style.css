@@ -22,7 +22,7 @@ body{
     border-radius: 100%;
     border-left: 300px;
     position: relative;
-    max-height: 550px;
+    max-height: 555px;
       
   }
   
@@ -32,8 +32,8 @@ body{
   justify-content: center;
   align-items: center;
   height: 70vh;
-  margin: 5vh 40vw 1vh 40vw;
-  max-height: 750px;
+  margin: 5vh 20vw 1vh 20vw;
+  max-height: 600px;
   /* border: 2px solid black; */
   /* border-radius: 5%; */
   
