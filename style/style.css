@@ -15,7 +15,7 @@ body{
   border-radius: 0 50px 0 50px;
   /* top: -25vh; */
     /* margin: 0; */
-    transition: all .5s ease-in;
+    transition: all .2s ease-in;
     /* padding: 0 35px; */
     box-shadow: 0 4px 4px #000000ad;
     background-color: rgba(131, 131, 131, 0.479);
@@ -68,7 +68,7 @@ body{
 
 .avatar{
    margin-top: 1.25vh;
-   pointer-events: none;
+   /* pointer-events: none; */
 }
 a {
   transition: all .5s ease-in;
@@ -233,6 +233,7 @@ a {
     overflow: hidden;
     border-radius: 25px;
     margin: 1vh;
+    /* margin-top: -1vw; */
   }
   
   .designer:hover {
@@ -259,32 +260,36 @@ a {
     left: 100%;
   }
 .dt-button{
-  /* pointer-events: none; */
-  transition: transform 0.2s ease;
+  /* -webkit-filter: blur(2px); */
+  transition: transform 0.5s ease;
 }
 .tgk-button{
-  /* pointer-events: none; */
-  transition: transform 0.2s ease;
+  /* -webkit-filter: blur(2px); */
+  transition: transform 0.5s ease;
 }
 .youtube-button{
-  /* pointer-events: none; */
-  transition: transform 0.2s ease;
+  /* -webkit-filter: blur(2px); */
+  transition: transform 0.5s ease;
 }
 .dt-button:hover{
-  transform: scale(1.2);
+  /* -webkit-filter: blur(2px); */
+  transform: scale(1.35);
 }
 .tgk-button:hover{
-  transform: scale(1.2);
+  /* -webkit-filter: blur(2px); */
+  transform: scale(1.35);
 }
 .youtube-button:hover{
-  transform: scale(1.2);
+  /* -webkit-filter: blur(2px); */
+  transform: scale(1.35);
 }
 .phone-button{
-  /* pointer-events: none; */
-  transition: transform 0.2s ease;
+  /* -webkit-filter: blur(2px); */
+  transition: transform 0.5s ease;
 }
 .phone-button:hover{
-  transform: scale(1.2);
+  /* -webkit-filter: blur(2px); */
+  transform: scale(1.35);
 }
 /* .aligntext{
   color: aliceblue;
