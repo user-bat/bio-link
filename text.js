@@ -42,14 +42,14 @@ document.addEventListener("DOMContentLoaded", function() {
             } else {
                 isAdding = false;
                 time++;
-                if(time < 2){
-                    setTimeout(typeWriter, 300);
+                if(time < index){
+                    setTimeout(typeWriter, 50);
                 }
                 // setTimeout(typeWriter, 120); 
                 return;
             }
         } else {
-            if (index > 0) {
+            if (index > time) {
                 index--;
             } else {
                 isAdding = true;
@@ -57,13 +57,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 // if(time < 2){
                 //     setTimeout(typeWriter, 1000);
                 // }
-                setTimeout(typeWriter, 300); 
+                setTimeout(typeWriter, 50); 
                 return;
                 // break;
             }
 
         }
-        setTimeout(typeWriter, 300); 
+        setTimeout(typeWriter, 200); 
         // break;
     }
 
