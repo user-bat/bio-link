@@ -8,7 +8,7 @@ body{
     background-repeat: no-repeat; /* Запрет повторения GIF */
     background-position: center center; /* Центрирование GIF */
     background-attachment: fixed; /* Фиксация фона при прокрутке страницы */
-    
+    align-items: center;
 }
 
 .container1 {
