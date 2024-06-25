@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
             } else {
                 isAdding = false;
                 time++;
-                if(time < index){
+                if(time < 1){
                     setTimeout(typeWriter, 50);
                 }
                 // setTimeout(typeWriter, 120); 
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
 
         }
-        setTimeout(typeWriter, 200); 
+        setTimeout(typeWriter, 100); 
         // break;
     }
 
